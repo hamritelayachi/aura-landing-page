@@ -99,3 +99,26 @@ a {
     object-position: center top;
 }
 
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    flex: 1 1 153px;
+    min-width: 153px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    text-align: center;
+}
+
+.card-prod-name, 
+.card-price {
+    font-size: 16px;
+    line-height: 1.3px;
+    font-weight: 400;
+}
