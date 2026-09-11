@@ -59,16 +59,43 @@ a {
     gap: 16px;
 }
 
-.nav-menu-link {
-    display: flex;
-    align-items: center;
-    gap: 8px;
+.link {
     font-size: 11px;
     font-family: "Montserrat", sans-serif;
     color: var(--color-text);
     text-transform: uppercase;
 }
 
+.nav-menu-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
 .nav-menu-link:hover {
     color: var(--color-hover);
 }
+
+.hero {
+    padding: 40px 0px;
+    display: flex;
+    gap: 26px;
+}
+
+.hero-left, 
+.hero-right {
+    flex: 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero-img {
+    height: 332px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center top;
+}
+
